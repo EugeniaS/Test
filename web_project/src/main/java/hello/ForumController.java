@@ -51,9 +51,9 @@ public class ForumController {
         all_posts="";
 
         for (i=0; i<dbWebBLog.length; i++){
-            all_posts=all_posts+"&lt;br /&gt;---------------------------------<br />";
-            all_posts=all_posts+"Author: "+dbWebBLog[i][0]+"   Date: "+dbWebBLog[i][1]+"\nTitle: "+dbWebBLog[i][2];
             all_posts=all_posts+"<p>---------------------------------</p>";
+            all_posts=all_posts+"<p>Author: "+dbWebBLog[i][0]+"   Date: "+dbWebBLog[i][1]+"</p><p>Title: "+dbWebBLog[i][2];
+            all_posts=all_posts+"</p><p>---------------------------------</p>";
         }
 
 
