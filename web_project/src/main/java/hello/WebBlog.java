@@ -11,11 +11,6 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableAutoConfiguration
 public class WebBlog {
 
-    /*properties
-    1) summary page
-    2) login/registration form
-    */
-
     public static void main(String[] args) throws IOException {
 
         SpringApplication.run(WebBlog.class, args);
@@ -23,6 +18,9 @@ public class WebBlog {
 
         //add new Content
         //Content newMessage = new Content("author3", "first title", "first message");
+
+        //add new User
+        //Users newUser = new Users("user", "user");
 
        
     }
